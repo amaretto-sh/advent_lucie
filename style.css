@@ -111,7 +111,7 @@ body {
     grid-area: d2;
   }
    .day-2 .image {
-    background: url(medias/bunny_cloud.jpg);
+    background: url(medias/bunny_cloud.JPG);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
