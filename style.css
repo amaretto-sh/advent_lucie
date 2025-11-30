@@ -1,0 +1,1095 @@
+body {
+  background: url(/medias/bg.jpg) no-repeat top center #072c47;
+  background-size: cover;
+  color: #dfb260;
+  font-family: "Lexend Giga", sans-serif;
+  text-align: center;
+  text-shadow: 0 0 10px #3B5060, 10px 10px 10px rgba(206,89,55,0);
+}
+
+/* title graphic */
+.title {  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #dfb260;
+  letter-spacing: 0.3vw;
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 5vw;
+  line-height: 1;
+  padding-top: 30px;
+  margin: 0px auto 30px;
+  text-shadow: 0 0 10px #072c47, 10px 10px 10px rgba(206,89,55,0);
+}
+
+/* mobile first grid layout */
+.grid-1 {
+  display: grid;
+  width: 100%;
+  max-width: 2000px;
+  margin: 2% auto;
+  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 25px;
+  
+  grid-template-areas:    "t        t       t"
+                          "d23      d20     d12"
+                          "d2       d14     d4"
+                          "d5       d22     d16"
+                          "d1       d7      d9"
+                          "d10      d11     d18"
+                          "d13      d3      d15"
+                          "d6       d17     d8"
+                          "d19      d24     d21";
+}
+
+/* media query */
+@media only screen and (min-width: 2000px) {
+  
+  .grid-1 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "t     t     t     d2      d7      d8"
+                         "t     t     t     d4      d11     d12"
+                         "t     t     t     d19     d9      d13"
+                         "d6    d1    d24   d24     d21     d20"
+                         "d17   d18   d24   d24     d5      d22"
+                         "d3    d23   d16   d14     d10     d15";
+  }
+  
+}
+
+
+/* individual items */
+  .title {
+    grid-area: t;
+  }
+  .day-1 {
+  grid-area: d1;
+  }
+  .day-1 .image {
+    background: url(/medias/brunch.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-1 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-1 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-1 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-1 .back:hover .text {
+      opacity: 1;
+  }
+
+  .day-2 {
+    grid-area: d2;
+  }
+   .day-2 .image {
+    background: url(/medias/bunny_cloud.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-2 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-2 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-2 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-2 .back:hover .text {
+      opacity: 1;
+  }
+
+  .day-3 {
+    grid-area: d3;
+  }
+  .day-3 .image {
+    background: url(/medias/vaisselle_sale.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-3 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-3 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-3 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-3 .back:hover .text {
+      opacity: 1;
+  }
+  .day-4 {
+    grid-area: d4;
+  }
+   .day-4 .image {
+    background: url(/medias/dappling_light.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-4 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-4 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-4 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-4 .back:hover .text {
+      opacity: 1;
+  }
+  .day-5 {
+    grid-area: d5;
+  }
+   .day-5 .image {
+    background: url(/medias/eclaboussure.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-5 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-5 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-5 .text {
+  color: #d8b87b;
+  opacity: 0;
+  transition: .5s ease;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-5.back:hover .text {
+      opacity: 1;
+  }
+  .day-6 {
+    grid-area: d6;
+  }
+   .day-6 .image {
+    background: url(/medias/en_paix.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-6 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-6 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-6 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-6 .back:hover .text {
+      opacity: 1;
+  }
+  .day-7 {
+    grid-area: d7;
+  }
+   .day-7 .image {
+    background: url(/medias/fatigue_coeur.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-7 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-7 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-7 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-7 .back:hover .text {
+      opacity: 1;
+  }
+  .day-8 {
+    grid-area: d8;
+  }
+   .day-8 .image {
+    background: url(/medias/fausse_manip.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-8 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-8 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-8 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-8 .back:hover .text {
+      opacity: 1;
+  }
+  .day-9 {
+    grid-area: d9;
+  }
+   .day-9.image {
+    background: url(/medias/fenetre.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-9 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-9 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-9 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-9 .back:hover .text {
+      opacity: 1;
+  }
+  .day-10 {
+    grid-area: d10;
+  }
+    .day-10 .image {
+    background: url(/medias/fume_la_tête.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-10 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-10 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-10 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-10 .back:hover .text {
+      opacity: 1;
+  }
+  .day-11 {
+    grid-area: d11;
+  }
+   .day-11 .image {
+    background: url(/medias/je_te_laisserai_des_mots.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-11 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-11 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-11 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-11 .back:hover .text {
+      opacity: 1;
+  }
+  .day-12 {
+    grid-area: d12;
+  }
+    .day-12 .image {
+    background: url(/medias/kiffeuse_va.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-12 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-12 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-12 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-12 .back:hover .text {
+      opacity: 1;
+  }
+  .day-13 {
+    grid-area: d13;
+  }
+    .day-13 .image {
+    background: url(/medias/kill_le_site_des_impots.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-13 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-13 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-13 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-13 .back:hover .text {
+      opacity: 1;
+  }
+  .day-14 {
+    grid-area: d14;
+  }
+   .day-14 .image {
+    background: url(/medias/laver_latelier.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-14 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-14 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-14 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-14 .back:hover .text {
+      opacity: 1;
+  }
+  .day-15 {
+    grid-area: d15;
+  }
+    .day-15 .image {
+    background: url(/medias/merci.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-15 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-15 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-15 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-15 .back:hover .text {
+      opacity: 1;
+  }
+  .day-16 {
+    grid-area: d16;
+  }
+   .day-16 .image {
+    background: url(/medias/moi_protegeant_ton_gosse.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-16 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-16 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-16 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-16 .back:hover .text {
+      opacity: 1;
+  }
+  .day-17 {
+    grid-area: d17;
+  }
+    .day-17 .image {
+    background: url(/medias/nouveaux_anciens.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-17 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-17 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-17 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-17 .back:hover .text {
+      opacity: 1;
+  }
+  .day-18 {
+    grid-area: d18;
+  }
+   .day-18 .image {
+    background: url(/medias/prete_au_combat.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-18 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-18 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-18 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-18 .back:hover .text {
+      opacity: 1;
+  }
+  .day-19 {
+    grid-area: d19;
+  }
+    .day-19 .image {
+    background: url(/medias/protect_bird.JPG);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-19 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-19 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-19 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-19 .back:hover .text {
+      opacity: 1;
+  }
+  .day-20 {
+    grid-area: d20;
+  }
+    .day-20 .image {
+    background: url(/medias/salut_au_soleil.JPG);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-20 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-20 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-20 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-20 .back:hover .text {
+      opacity: 1;
+  }
+  .day-21 {
+    grid-area: d21;
+  }
+  .day-21 .image {
+    background: url(/medias/secure.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-21 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-21 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-21 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-21 .back:hover .text {
+      opacity: 1;
+  }
+  .day-22 {
+    grid-area: d22;
+  }
+  .day-22 .image {
+    background: url(/medias/sleepy_cat.JPG);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-22 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-22 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-22 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-22 .back:hover .text {
+      opacity: 1;
+  }
+  .day-23 {
+    grid-area: d23;
+  }
+  .day-23 .image {
+    background: url(/medias/ciel_poubelle.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-23 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-23 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-23 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-23 .back:hover .text {
+      opacity: 1;
+  }
+  .day-24 {
+    grid-area: d24;
+  }
+  .day-24 .image {
+    background: url(/medias/tendresse.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .day-24 .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3B5060;
+  }
+  .day-24 .back:hover .overlay {
+      opacity: 0.7;
+  }
+  .day-24 .text {
+  color: #d8b87b;
+  opacity: 0;
+    transition: .5s ease;
+   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  .day-24 .back:hover .text {
+      opacity: 1;
+  }
+
+
+/* door styles */
+
+.grid-1 input {
+  display: none;
+}
+
+label {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  cursor: pointer;
+
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  height: 300px;
+}
+
+.front {
+  background-color: #3B5060;
+}
+
+.door {
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: all 300ms;
+  border: 2px;
+}
+
+  .door div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: "Gowun Dodum", sans-serif;
+        color: #A99260;
+        font-size: 2em;
+        font-weight: bold;
+  }
+
+  .door .back {
+    background-color: transparent;
+    transform: rotateY(180deg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  label:hover .door {
+    background-color: #3B5060;
+  }
+
+  label:hover .door .back {
+    background-color: #072c47;
+  }
+
+  :checked + .door {
+    transform: rotateY(180deg);
+  }
