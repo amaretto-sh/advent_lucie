@@ -111,7 +111,7 @@ body {
     grid-area: d2;
   }
    .day-2 .image {
-    background: url("medias/bunny_cloud.jpg");
+    background: url("medias/bunny_cloud.JPG");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -792,7 +792,7 @@ body {
     grid-area: d19;
   }
     .day-19 .image {
-    background: url("medias/protect_bird.jpg");
+    background: url("medias/protect_bird.JPG");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -832,7 +832,7 @@ body {
     grid-area: d20;
   }
     .day-20 .image {
-    background: url("medias/salut_au_soleil.jpg");
+    background: url("medias/salut_au_soleil.JPG");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -912,7 +912,7 @@ body {
     grid-area: d22;
   }
   .day-22 .image {
-    background: url("medias/sleepy_cat.jpg");
+    background: url("medias/sleepy_cat.JPG");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
