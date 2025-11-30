@@ -1,5 +1,5 @@
 body {
-  background: url(/medias/bg.jpg) no-repeat top center #072c47;
+  background: url(medias/bg.jpg) no-repeat top center #072c47;
   background-size: cover;
   color: #dfb260;
   font-family: "Lexend Giga", sans-serif;
@@ -70,7 +70,7 @@ body {
   grid-area: d1;
   }
   .day-1 .image {
-    background: url(/medias/brunch.jpg);
+    background: url(medias/brunch.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body {
     grid-area: d2;
   }
    .day-2 .image {
-    background: url(/medias/bunny_cloud.jpg);
+    background: url(medias/bunny_cloud.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body {
     grid-area: d3;
   }
   .day-3 .image {
-    background: url(/medias/vaisselle_sale.jpg);
+    background: url(medias/vaisselle_sale.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ body {
     grid-area: d4;
   }
    .day-4 .image {
-    background: url(/medias/dappling_light.jpg);
+    background: url(medias/dappling_light.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ body {
     grid-area: d5;
   }
    .day-5 .image {
-    background: url(/medias/eclaboussure.jpg);
+    background: url(medias/eclaboussure.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -272,7 +272,7 @@ body {
     grid-area: d6;
   }
    .day-6 .image {
-    background: url(/medias/en_paix.jpg);
+    background: url(medias/en_paix.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -312,7 +312,7 @@ body {
     grid-area: d7;
   }
    .day-7 .image {
-    background: url(/medias/fatigue_coeur.jpg);
+    background: url(medias/fatigue_coeur.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ body {
     grid-area: d8;
   }
    .day-8 .image {
-    background: url(/medias/fausse_manip.jpg);
+    background: url(medias/fausse_manip.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -392,7 +392,7 @@ body {
     grid-area: d9;
   }
    .day-9.image {
-    background: url(/medias/fenetre.jpg);
+    background: url(medias/fenetre.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -432,7 +432,7 @@ body {
     grid-area: d10;
   }
     .day-10 .image {
-    background: url(/medias/fume_la_tête.jpg);
+    background: url(medias/fume_la_tête.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ body {
     grid-area: d11;
   }
    .day-11 .image {
-    background: url(/medias/je_te_laisserai_des_mots.jpg);
+    background: url(medias/je_te_laisserai_des_mots.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -512,7 +512,7 @@ body {
     grid-area: d12;
   }
     .day-12 .image {
-    background: url(/medias/kiffeuse_va.jpg);
+    background: url(medias/kiffeuse_va.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -552,7 +552,7 @@ body {
     grid-area: d13;
   }
     .day-13 .image {
-    background: url(/medias/kill_le_site_des_impots.jpg);
+    background: url(medias/kill_le_site_des_impots.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -592,7 +592,7 @@ body {
     grid-area: d14;
   }
    .day-14 .image {
-    background: url(/medias/laver_latelier.jpg);
+    background: url(medias/laver_latelier.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -632,7 +632,7 @@ body {
     grid-area: d15;
   }
     .day-15 .image {
-    background: url(/medias/merci.jpg);
+    background: url(medias/merci.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -672,7 +672,7 @@ body {
     grid-area: d16;
   }
    .day-16 .image {
-    background: url(/medias/moi_protegeant_ton_gosse.jpg);
+    background: url(medias/moi_protegeant_ton_gosse.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -712,7 +712,7 @@ body {
     grid-area: d17;
   }
     .day-17 .image {
-    background: url(/medias/nouveaux_anciens.jpg);
+    background: url(medias/nouveaux_anciens.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -752,7 +752,7 @@ body {
     grid-area: d18;
   }
    .day-18 .image {
-    background: url(/medias/prete_au_combat.jpg);
+    background: url(medias/prete_au_combat.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -792,7 +792,7 @@ body {
     grid-area: d19;
   }
     .day-19 .image {
-    background: url(/medias/protect_bird.JPG);
+    background: url(medias/protect_bird.JPG);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -832,7 +832,7 @@ body {
     grid-area: d20;
   }
     .day-20 .image {
-    background: url(/medias/salut_au_soleil.JPG);
+    background: url(medias/salut_au_soleil.JPG);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -872,7 +872,7 @@ body {
     grid-area: d21;
   }
   .day-21 .image {
-    background: url(/medias/secure.jpg);
+    background: url(medias/secure.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -912,7 +912,7 @@ body {
     grid-area: d22;
   }
   .day-22 .image {
-    background: url(/medias/sleepy_cat.JPG);
+    background: url(medias/sleepy_cat.JPG);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -952,7 +952,7 @@ body {
     grid-area: d23;
   }
   .day-23 .image {
-    background: url(/medias/ciel_poubelle.jpg);
+    background: url(medias/ciel_poubelle.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -992,7 +992,7 @@ body {
     grid-area: d24;
   }
   .day-24 .image {
-    background: url(/medias/tendresse.jpg);
+    background: url(medias/tendresse.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
