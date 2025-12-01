@@ -265,7 +265,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-  .day-5.back:hover .text {
+  .day-5 .back:hover .text {
       opacity: 1;
   }
   .day-6 {
@@ -391,8 +391,8 @@ body {
   .day-9 {
     grid-area: d9;
   }
-   .day-9.image {
-    background: url("dias/fenetre.jpg");
+   .day-9 .image {
+    background: url("medias/fenetre.jpg");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -432,7 +432,7 @@ body {
     grid-area: d10;
   }
     .day-10 .image {
-    background: url("medias/fume_la_tête.jpg");
+    background: url("medias/fume_la_tete.jpg");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
